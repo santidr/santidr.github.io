@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./img/favicon/site.webmanifest">
+    <!-- Favicon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css"
+        integrity="sha512-HqxHUkJM0SYcbvxUw5P60SzdOTy/QVwA1JJrvaXJv4q7lmbDZCmZaqz01UPOaQveoxfYRv1tHozWGPMcuTBuvQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Santiago Diaz | Portfolio</title>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/main.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="container">
+                <div class="navbar-brand">
+                    <a class="navbar-item is-size-5 has-text-weight-medium" href="#">
+                        { santidr.js }
+                    </a>
+    
+                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                        data-target="navbarBasicExample">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
+    
+                <div id="navbarBasicExample" class="navbar-menu">
+                    <div class="navbar-end">
+                        <a href="#home" class="navbar-item px-0 mx-3 active">
+                            Home
+                        </a>
+    
+                        <a href="#about" class="navbar-item px-0 mx-3">
+                            About
+                        </a>
+    
+                        <a href="#portfolio" class="navbar-item px-0 mx-3">
+                            Portfolio
+                        </a>
+    
+                        <a href="#contact" class="navbar-item px-0 mx-3">
+                            Contact
+                        </a>
+    
+                        <button id="switch" class="button is-light m-3" type="button">
+                            <i class="fa-solid fa-moon"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section id="home" class="hero is-fullheight">
+            <div class="hero-body columns is-mobile is-flex-wrap-wrap">
+                <div class="column is-12-mobile">
+                    <div class="info">
+                        <h3 class="subtitle is-4">Hello! My name is</h3>
+                        <h1 class="title is-1 has-text-weight-medium">Santiago Diaz</h1>
+                        <hr>
+                        <p class="has-text-weight-medium is-size-4 mt-3">I'm a web developer</p>
+                        <p class="has-text-weight-medium is-6 has-text-link mt-5">Based in Santo Domingo - D.R</p>
+                    </div>
+                    <div class="info-actions mt-6">
+                        <a href="https://drive.google.com/file/d/1hLF-VHR8S8BpZp8nGZ6XGR-XMUbQI8j1/view" class="button mr-3 is-link is-outlined has-text-weight-medium" target="_blank">Download
+                            CV</a>
+                        <a href="#about" class="button ml-3 is-danger is-outlined has-text-weight-medium">See
+                            more...</a>
+                    </div>
+                </div>
+                <div class="column is-12-mobile">
+                    <div class="my-svg" data-aos="fade-left">
+                        <img src="/img/undraw_programming.svg" alt="undraw">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section columns">
+            <div class="column">
+                <h2 class="title has-text-weight-medium">About</h2>
+                <hr>
+            </div>
+            <div class="column">
+                <div class="resume-info" data-aos="fade-left">
+                    <p class="is-size-4 has-text-weight-light">
+                        I am a self-taught person who really enjoys creating and improving things. My specialty is building
+                        professional
+                        and custom web applications that meet your expectations.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section columns">
+            <div class="column">
+                <h2 class="title has-text-weight-medium">Skills</h2>
+                <hr>
+            </div>
+            <div class="column">
+                <div class="skills-set is-flex-wrap-wrap" data-aos="fade-left">
+                    <span>
+                        <img src="https://cdn-icons-png.flaticon.com/512/174/174854.png" alt="html">
+                        <p class="has-text-centered has-text-weight-medium">HTML</p>
+                    </span>
+                    <span>
+                        <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="html">
+                        <p class="has-text-centered has-text-weight-medium">CSS</p>
+                    </span>
+                    <span>
+                        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="html">
+                        <p class="has-text-centered has-text-weight-medium">JavaScript</p>
+                    </span>
+                    <span>
+                        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968381.png" alt="html">
+                        <p class="has-text-centered has-text-weight-medium">TypeScript</p>
+                    </span>
+                    <span>
+                        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968358.png" alt="html">
+                        <p class="has-text-centered has-text-weight-medium">Sass</p>
+                    </span>
+                    <span>
+                        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968672.png" alt="html">
+                        <p class="has-text-centered has-text-weight-medium">Bootstrap</p>
+                    </span>
+                    <span>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/250px-React.svg.png"
+                            alt="html">
+                        <p class="has-text-centered has-text-weight-medium">ReactJS</p>
+                    </span>
+                    <span>
+                        <img src="https://cdn-icons-png.flaticon.com/512/919/919825.png" alt="html">
+                        <p class="has-text-centered has-text-weight-medium">NodeJS</p>
+                    </span>
+                    <span>
+                        <img src="https://img.icons8.com/color/480/mongodb.png" alt="html">
+                        <p class="has-text-centered has-text-weight-medium">MongoDB</p>
+                    </span>
+                    <span>
+                        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png" alt="html">
+                        <p class="has-text-centered has-text-weight-medium">Python</p>
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="section columns">
+            <div class="column">
+                <h2 class="title has-text-weight-medium">Portfolio</h2>
+                <hr class="mb-6">
+                <div class="projects columns is-mobile is-tablet is-variable is-8 is-flex-wrap-wrap" data-aos="fade-up">
+                    <div class="column is-12-mobile is-6-tablet is-4-desktop">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="./img/search-country-thumb.png" alt="Placeholder image">
+                            </div>
+
+                            <h4 class="card-header-title is-size-5">Search Country App</h4>
+
+                            <div class="card-content pt-0">
+                                <div class="content">
+                                    An app I made from a <a href="https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca" target="_blank">@FrontendMentor challenge</a> where you can search for a particular country information filtered by region.
+                                </div>
+                            </div>
+
+                            <div class="card-footer is-flex is-justify-content-space-around">
+                                <a href="https://github.com/santidr/search-country-app" class="button is-link is-light m-3" target="_blank">Code</a>
+                                <a href="https://kdr-search-country.netlify.app/" class="button is-link is-light m-3" target="_blank">Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column is-12-mobile is-6-tablet is-4-desktop">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="./img/superquiz-thumb.png" alt="Placeholder image">
+                            </div>
+
+                            <h4 class="card-header-title is-size-5">SuperQuiz App</h4>
+
+                            <div class="card-content pt-0">
+                                <div class="content">
+                                    This is a simple quiz app where you can test yourself about general knowlege questions.
+                                </div>
+                            </div>
+                            <div class="card-footer is-flex is-justify-content-space-around">
+                                <a href="https://github.com/santidr/quiz-app" class="button is-link is-light m-3" target="_blank">Code</a>
+                                <a href="https://kdr-superquiz.netlify.app/" class="button is-link is-light m-3" target="_blank">Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column is-12-mobile is-6-tablet is-4-desktop">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="./img/journal-app-thumb.png" alt="Placeholder image">
+                            </div>
+
+                            <h4 class="card-header-title is-size-5">Journal App</h4>
+
+                            <div class="card-content pt-0">
+                                <div class="content">
+                                    A journal or dairy notes app in a nutshell using the Firebase auth and db storing services.
+                                </div>
+                            </div>
+                            <div class="card-footer is-flex is-justify-content-space-around">
+                                <a href="https://github.com/santidr/journal-app" class="button is-link is-light m-3" target="_blank">Code</a>
+                                <a href="https://kdr-journal.netlify.app/" class="button is-link is-light m-3" target="_blank">Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column is-12-mobile is-6-tablet is-4-desktop">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="./img/crypto-hunter-thumb.png" alt="Placeholder image">
+                            </div>
+
+                            <h4 class="card-header-title is-size-5">Crypto Hunter</h4>
+
+                            <div class="card-content pt-0">
+                                <div class="content">
+                                    A crypto tracker app for DeFi enthusiasts where you can see a real time price histoy from the top 100 coins by marketcap.
+                                </div>
+                            </div>
+
+                            <div class="card-footer is-flex is-justify-content-space-around">
+                                <a href="https://github.com/santidr/crypto-tracker" class="button is-link is-light m-3" target="_blank">Code</a>
+                                <a href="https://kdr-crypto-hunter.netlify.app/" class="button is-link is-light m-3" target="_blank">Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column is-12-mobile is-6-tablet is-4-desktop">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="./img/ticket-app-thumb.png" alt="Placeholder image">
+                            </div>
+
+                            <h4 class="card-header-title is-size-5">Ticket App</h4>
+
+                            <div class="card-content pt-0">
+                                <div class="content">
+                                    A business-suited app to control the assistance of clients by using a real-time socket server that displays 3 different interfaces.
+                                </div>
+                            </div>
+                            <div class="card-footer is-flex is-justify-content-space-around">
+                                <a href="https://github.com/santidr" class="button is-link is-light m-3" target="_blank">Code</a>
+                                <a href="https://kdr-ticket-app.netlify.app/" class="button is-link is-light m-3" target="_blank">Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section columns">
+            <div class="column">
+                <h2 class="title has-text-weight-medium">Contact</h2>
+                <hr>
+            </div>
+            <div class="column">
+                <form data-aos="fade-left" action="mailto:kerbindr@gmail.com">
+                    <div class="field">
+                        <label class="label has-text-weight-normal">Your name</label>
+                        <div class="control">
+                            <input class="input" type="text" placeholder="John Doe">
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label class="label has-text-weight-normal">E-mail</label>
+                        <div class="control">
+                            <input class="input" type="email" placeholder="user@mail.com">
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label class="label has-text-weight-normal">Message</label>
+                        <div class="control">
+                            <textarea class="textarea" placeholder="Your message here..."></textarea>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <div class="control">
+                            <button type="submit" class="button is-link">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer has-background-link-light pb-6">
+        <div class="content has-text-centered">
+            <a href="https://github.com/santidr" class="is-size-3" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <p class="mt-2">Created with ❤️ by <span class="has-text-weight-medium">Santiago Diaz</span></p>
+        </div>
+    </footer>
+</body>
+
+</html>
