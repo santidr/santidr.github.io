@@ -1,0 +1,144 @@
+html {
+  scroll-behavior: smooth !important;
+}
+
+body {
+  transition: all 0.4s ease;
+  font-family: "Ubuntu", sans-serif;
+}
+body.dark {
+  background-color: #1a202c;
+}
+
+a {
+  color: black;
+}
+body.dark a {
+  color: #f5f5f5;
+}
+
+hr {
+  background-color: #485fc7;
+  height: 8px;
+  width: 85px;
+}
+
+button, a {
+  transition: all 0.4s ease;
+}
+
+body.dark button#switch {
+  background-color: #2d3748;
+}
+body.dark button#switch i {
+  color: #f5f5f5;
+}
+
+body.dark h1, body.dark h2, body.dark h3, body.dark h4, body.dark p, body.dark label {
+  color: #f5f5f5;
+}
+
+nav {
+  height: 56px;
+}
+
+.navbar-end .navbar-item {
+  border-bottom: 3px solid transparent;
+  transition: all 0.4s ease;
+}
+.navbar-end .navbar-item:hover {
+  background-color: transparent;
+}
+.navbar-end .navbar-item.active {
+  border-bottom-color: #485fc7;
+}
+
+.container {
+  max-width: 1200px !important;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  margin: 0 auto;
+  transition: all 0.4s ease;
+}
+body.dark .navbar {
+  background-color: #1a202c;
+}
+body.dark .navbar .navbar-menu {
+  background-color: #1a202c;
+}
+
+section#contact {
+  height: 75vh;
+}
+
+.skills-set {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 70px;
+}
+
+body.dark .card {
+  background-color: #2d3748;
+}
+body.dark .card .card-content .content {
+  color: #aeb5be;
+}
+body.dark .card .card-footer {
+  border-top-color: #36435c;
+}
+body.dark .card .card-footer a {
+  background-color: transparent;
+  color: #f5f5f5;
+}
+
+.card-image {
+  overflow: hidden;
+}
+.card-image img {
+  height: 100%;
+  -o-object-fit: fill;
+     object-fit: fill;
+  transition: all 0.6s ease-out;
+}
+.card-image img:hover {
+  transform: scale(1.08);
+}
+
+body.dark input, body.dark textarea {
+  background-color: #2d3748;
+  color: #f5f5f5;
+  border: none;
+}
+body.dark input::-moz-placeholder, body.dark textarea::-moz-placeholder {
+  color: #aeb5be;
+  opacity: 0.6;
+}
+body.dark input:-ms-input-placeholder, body.dark textarea:-ms-input-placeholder {
+  color: #aeb5be;
+  opacity: 0.6;
+}
+body.dark input::placeholder, body.dark textarea::placeholder {
+  color: #aeb5be;
+  opacity: 0.6;
+}
+
+body.dark footer {
+  background-color: #2d3748 !important;
+}
+
+@media screen and (max-width: 820px) {
+  .skills-set {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+  }
+
+  .navbar-end .navbar-item {
+    line-height: 40px;
+    text-align: center;
+  }
+}/*# sourceMappingURL=styles.css.map */
